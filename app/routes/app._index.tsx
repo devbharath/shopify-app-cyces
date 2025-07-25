@@ -86,22 +86,6 @@ export default function Index() {
               </Card>
             </BlockStack>
 
-            {/* <Card>
-              <BlockStack gap="500">
-                <BlockStack gap="200">
-                  <Text as="h2" variant="headingMd">
-                    Create a Store Location
-                  </Text>
-                  <StoreLocartionCreator
-                    formState={formState}
-                    setFormState={setFormState}
-                    handleSubmit={handleSubmit}
-                    erorrs={errors}
-                    isLoading={isLoading}
-                  />
-                </BlockStack>
-              </BlockStack>
-            </Card> */}
           </Layout.Section>
           <Layout.Section variant="oneThird">
             <BlockStack gap="500">
